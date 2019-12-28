@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My Porfolio</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/tooltip.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6f1a05d4b9.js" crossorigin="anonymous"></script>
+<body>
+	<!-- start header -->
+	<header class="nav-bar">
+		<div class="container">
+			<nav>
+				<div class="nav-brand">
+				<a href="index.html" data-tooltip="Profile">
+					<img src="images/logo.png" alt="">
+				</a>		
+				</div>
+				<div class="menu-icons open" data-tooltip="Navigation">
+					<i class="fas fa-bars"></i>
+				</div>
+				
+				<ul class="nav-list" id="nav">
+					<div class="menu-icons close">
+						<i class="fas fa-times"></i>
+					</div>
+					<li class="nav-item">
+						<a href="#" data-page="profile" class="nav-link li">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" data-page="projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" data-page="contact" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- header end -->
+	<main >
+		<section class="hero" id="profile">
+			<div class="container">
+				<div class="main-message">
+					<div class="profile-pic">
+						<img src="images/profile.jpg" alt="">
+					</div>
+					<h3></h3>
+					<h1>Sherwin <b class="sidecol">Estrera</b></h1>
+					<p>Hi! I'm <b class="sidecol">Sherwin</b>, I'm a front-end Web Developer.</p>
+					<div class="social-grid">
+						<div class="social-grid-item">
+						<a href="https://www.facebook.com/spaos11" target="_blank" class="social-link" data-tooltip="Facebook">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+					</div>
+					<div class="social-grid-item">
+						<a href="https://github.com/oneironaut1997" target="_blank" class="social-link" data-tooltip="Github">
+							<i class="fab fa-github-square"></i>
+						</a>
+					</div>
+					<div class="social-grid-item">
+							<a href="files/SherwinCV.pdf" class="social-link" data-tooltip="Download Resume" download="">
+								<i class="fas fa-file-download"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="projects" id="projects">
+			<div class="container">
+				<div class="title-heading">
+					<h1>Pro<b class="sidecol">jects</b></h1>
+					<p style="text-transform: none;">This are my latest projcets.</p>
+				</div>
+
+				<div class="projects-grid">
+					<div class="projects-grid-item edz">
+						<i></i>
+						<h1 class="sidecol">Online Appointment System for Beauty Salons</h1>
+						<p>Online Appointment System for Beauty Salons is a Web-based Online appointment system for beauty salons for Lingayen, Pangasinan.</p>
+						<a href="#modalproject1" id="modalBtn1" class="btn" data-tooltip="Read more">Read more</a>
+					</div>	
+					<div class="projects-grid-item bato">
+						<i></i>
+						<h1 class="sidecol">Universities and Collgeges Information app</h1>
+						<p>Universities and Collgeges Information app is an android application where in Universiteis and Colleges Informations around the Pangasinan.
+						</p>
+						<a href="#modalproject2" id="modalBtn2" class="btn" data-tooltip="Read more">Read more</a> 
+					</div>
+					<div class="projects-grid-item jevi">
+						<i></i>
+						<h1 class="sidecol">PSU Student Handbook app</h1>
+						<p>Panasinan State University Student Handbook is an Android application where student handbook converted to digital Book.</p>
+						<a href="#modalproject3" id="modalBtn3" class="btn" data-tooltip="Read more">Read more</a>  
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-bg" id="contact">
+			<div class="container">
+				<div class="contact-profile">
+					<div class="contact-content">
+						<img src="images/profile-contact.jpg" alt="">
+						<h1>Sherwin <b class="sidecol">E.</b></h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-list">
+			<div class="container">
+				<div class="title-heading">
+					<h1>Contact <b class="sidecol">Me</b></h1>
+					<p style="text-transform: none;">Need more information? Don't be <b class="sidecol">shy</b> and say <b class="sidecol">Hi!</b></p>
+				</div>
+				<div class="contact-grid">
+					<div class="contact-grid-item">
+						<a href="tel:+639455828984" class="contact-link" data-tooltip="Phone Number">
+							<p><i class="fas fa-phone-square-alt"></i> 0945-582-8984</p>
+						</a>
+					</div>
+
+					<div class="contact-grid-item">
+						<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=oppai.senpai11@gmail.com&tf=1" target="_blank" class="contact-link" data-tooltip="Gmail">
+							<p><i class="fas fa-envelope"></i> oppai.senpai11@gmail.com</p>
+						</a>
+					</div>
+
+					<div class="contact-grid-item">
+						<a href="https://m.me/spaos11" target="_blank" class="contact-link" data-tooltip="Facebook Messenger">
+							<p><i class="fab fa-facebook-messenger"></i> Sherwin Malogan Estrera</p>
+						</a>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p><i class="far fa-copyright"></i> 2019 Sherwin's Online Portfolio</p>
+		</footer>
+
+			<div id="modalproject1" class="modal1">
+				<div class="modal-content1">
+					<div class="modal-head1">
+						<div class="modal-head1-content">
+							<span class="closeBtn1">&times;</span>
+							<h2>Online Appointment System for Beauty Salons</h2>
+							<img src="images/onlineapp.png" alt="">
+						</div>
+					</div>
+					<div class="modal-body1">	
+						<p>Online Appointment System for Beauty Salons is a Web-based Online appointment system for beauty salons for Lingayen, Pangasinan.</p>
+						<p>The System is exclusive only for the city of Lingayen, Pangasinan. But it is dynamically. There is three login options, Admin, Manager and the Customers. The Admin who runs the whole System can Add and Delete Managers and Salons. The Manager also can register for her/his Salon, can add Staffs and Services. And for the Customers, they are required to register to use the system, they can choose what salons, what services, and choose who are the specific staffs can do the service to book and appointment. The customer also can Rate the service when it's done.</p>
+						<h2>Technology Used</h2>
+						<ul>
+							<li>UBOLD Bootstrap Framework</li>
+							<li>PHP</li>
+							<li>mySQL</li>
+							<li>Ajax</li>
+							<li>WampServer</li>
+							<li>000Webhost</li>
+						</ul>
+						<h2>Testimonial</h2>
+						<ul>
+							<li>System Quality: </li>
+							<li>Speed: </li>
+							<li class="testimony">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nisi, repellendus facere pariatur itaque libero."</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<a href="https://github.com/oneironaut1997/Online-Booking-Appointment-System-for-Beauty-Salons" target="_blank" data-tooltip="Github">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a href="http://onlinebeautysalonslingayen.000webhostapp.com/" target="_blank" data-tooltip="Visit Link">
+							<i class="fas fa-link"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="modalproject2" class="modal2">
+				<div class="modal-content2">
+					<div class="modal-head2">
+						<div class="modal-head2-content">
+							<span class="closeBtn2">&times;</span>
+							<h2>Pangasinan Universities and Collgeges Information APP</h2>
+							<img src="images/univ.png" alt="">
+						</div>
+					</div>
+					<div class="modal-body2">	
+						<p>Universities and Collgeges Information app is an android application where in Universiteis and Colleges Informations around the Pangasinan.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellat voluptas voluptatum incidunt quis error natus aut voluptates nobis nisi. Facere ex unde id, nulla eligendi blanditiis ut explicabo ullam veniam laudantium! Sunt labore commodi, doloribus animi velit id error accusantium at iusto dolorum perspiciatis impedit, dolor recusandae libero! Sed error animi commodi vero excepturi eius voluptas quas. Eligendi commodi cum qui quaerat fugiat, nobis sint vel fugit repellat velit molestiae recusandae mollitia aperiam, earum labore, accusamus sequi deleniti delectus ipsam nihil architecto ducimus alias accusantium maxime! Nobis, ex sunt!</p>
+						<h2>Technology Used</h2>
+						<ul>
+							<li>Framework7</li>
+							<li>Phonegap Build</li>
+							<li>Cordova</li>
+						</ul>
+						<h2>Testimonial</h2>
+						<ul>
+							<li>System Quality: </li>
+							<li>Speed </li>
+							<li class="testimony">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem sunt deserunt error nobis porro."</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<a href="https://github.com/oneironaut1997/Pangasinan-Universities-and-Colleges-Information-app" target="_blank" data-tooltip="Github">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a href="files/UniversitiesAndColleges.apk" data-tooltip="Download APK" download>
+							<i class="fas fa-file-download"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="modalproject3" class="modal3">
+				<div class="modal-content3">
+					<div class="modal-head3">
+						<div class="modal-head3-content">
+							<span class="closeBtn3">&times;</span>
+							<h2>PSU Student Handbook APP</h2>
+							<img src="images/handbook.jpg" alt="">
+						</div>
+					</div>
+					<div class="modal-body3">	
+						<p>Panasinan State University Student Handbook is an Android application where student handbook converted to digital Book.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellat voluptas voluptatum incidunt quis error natus aut voluptates nobis nisi. Facere ex unde id, nulla eligendi blanditiis ut explicabo ullam veniam laudantium! Sunt labore commodi, doloribus animi velit id error accusantium at iusto dolorum perspiciatis impedit, dolor recusandae libero! Sed error animi commodi vero excepturi eius voluptas quas. Eligendi commodi cum qui quaerat fugiat, nobis sint vel fugit repellat velit molestiae recusandae mollitia aperiam, earum labore, accusamus sequi deleniti delectus ipsam nihil architecto ducimus alias accusantium maxime! Nobis, ex sunt!</p>
+						<h2>Technology Used</h2>
+						<ul>
+							<li>Framework7</li>
+							<li>Phonegap Build</li>
+							<li>Cordova</li>
+						</ul>
+						<h2>Testimonial</h2>
+						<ul>
+							<li>System Quality: </li>
+							<li>Speed </li>
+							<li class="testimony">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem sunt deserunt error nobis porro."</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<a href="https://github.com/oneironaut1997/PSU-Student-Handbook-app" target="_blank" data-tooltip="Github">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a href="files/PsuStudentHandbook.apk" data-tooltip="Download APK" download="">
+							<i class="fas fa-file-download"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+	</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>	
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>	
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/active.js"></script>		
+</body>
+</html>
