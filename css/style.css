@@ -311,7 +311,6 @@ nav{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	z-index: 2;
 }
 .contact-content img{
 	width: 10rem;
@@ -328,7 +327,6 @@ nav{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	z-index: 1;
 	opacity: .7;
 }
 .contact-signature img{
